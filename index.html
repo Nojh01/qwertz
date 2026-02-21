@@ -2,31 +2,18 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Meine erste GitHub Pages Seite</title>
+    <title>Dynamische Seite</title>
     <style>
-        body {
-            background: #111;
-            color: #eee;
-            font-family: Arial, sans-serif;
-            text-align: center;
-            padding-top: 60px;
-        }
-        button {
-            padding: 10px 20px;
-            font-size: 18px;
-            cursor: pointer;
-        }
+        body { background:#111; color:white; font-family:Arial; text-align:center; padding-top:40px; }
+        button { padding:10px 20px; font-size:18px; }
     </style>
 </head>
 <body>
-    <h1>Hallo, das ist meine erste Website auf GitHub Pages!</h1>
-    <p>Erstellt mit HTML, CSS und JavaScript.</p>
-    <button onclick="klick()">Klick mich</button>
 
-    <script>
-        function klick() {
-            alert("GitHub Pages funktioniert 🎉");
-        }
-    </script>
+<h1 id="titel">Willkommen!</h1>
+<button onclick="wechsel()">Ändere den Text</button>
+<div id="bereich"></div>
+
+<script src="script.js"></script>
 </body>
 </html>
